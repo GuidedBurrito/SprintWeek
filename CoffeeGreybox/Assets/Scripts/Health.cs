@@ -5,7 +5,8 @@ public class Health : MonoBehaviour {
 
     public int maxHealth;
     public int health;
-
+	public int test;
+	
     public GameObject[] healthDisplay;
 
 	// Use this for initialization
