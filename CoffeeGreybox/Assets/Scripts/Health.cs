@@ -3,16 +3,15 @@ using System.Collections;
 
 public class Health : MonoBehaviour {
 
-    public int maxHealth;
+    public int startHealth;
     public int health;
-	public int test;
 	
     public GameObject[] healthDisplay;
 
 	// Use this for initialization
 	void Start () {
 
-        health = maxHealth;
+        health = startHealth;
         HealthChange();
 	
 	}
@@ -27,9 +26,21 @@ public class Health : MonoBehaviour {
         if (other.gameObject.tag == "Enemy")
         {
             health -= 1;
+
+            if (health < 1)
+            {
+                //game over
+            }
+
             HealthChange();
         }
-        else if (other.gameObject.tag == "Coffee")
+        else if (other.gameObject.tag == "Car")
+        {
+            health = 0;
+            HealthChange();
+            //game over
+        }
+        else if (other.gameObject.tag == "Coffee" && health < 4)
         {
             health += 1;
             HealthChange();
@@ -38,6 +49,7 @@ public class Health : MonoBehaviour {
 
     void HealthChange()
     {
+        //Update UI
         for (int i = 0; i < health; i++)
         {
             healthDisplay[i].SetActive(true);
