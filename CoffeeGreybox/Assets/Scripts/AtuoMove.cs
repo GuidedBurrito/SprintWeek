@@ -13,10 +13,11 @@ public class AtuoMove : MonoBehaviour {
     
     public Text timeDisplay;
     public Text scoreDisplay;
+    public Text finalScore;
 
     public float laneWidth;
     int laneNo;
-    bool inStore; //If player's in a store, don't change lanes
+    bool lockControls; //If player's in a store or end of level
     
     public float timeScore;
     float score;
@@ -30,19 +31,24 @@ public class AtuoMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+        
         //Automatic player movement
+        if (finalScore.IsActive())
+        {
+            player.SendMessage("FinalScore", score);
+            return;
+        }
         this.transform.position += Vector3.right * Time.deltaTime * playerSpeed;
 
         //Player input
-        if (Input.GetKeyDown(KeyCode.UpArrow) && laneNo > 1 && !inStore)
+        if (Input.GetKeyDown(KeyCode.UpArrow) && laneNo > 1 && !lockControls)
         {
             //Move player up a lane, unless they're in the top lane or inside a store
             player.transform.position += Vector3.forward * laneWidth;
             laneNo -= 1;
         }
 
-        if (Input.GetKeyDown(KeyCode.DownArrow) && laneNo < 4 && !inStore)
+        if (Input.GetKeyDown(KeyCode.DownArrow) && laneNo < 4 && !lockControls)
         {
             //Move player down a lane, unless they're in the bottom lane or inside a store
             player.transform.position -= Vector3.forward * laneWidth;
@@ -64,22 +70,28 @@ public class AtuoMove : MonoBehaviour {
         }
 
         //Display level time
-        timeScore = Time.time;
+        timeScore = Time.timeSinceLevelLoad;
         //Convert time to m:ss
         timeDisplay.text = Mathf.Floor(timeScore/60).ToString("f0") + ":" + (timeScore % 60).ToString("00");
 
         //Display score
         scoreDisplay.text = score.ToString("f0");
+        finalScore.text = score.ToString("f0");
     }
 
-    void Instore(bool x)
+    void LockControl(bool x)
     {
-        inStore = x;
+        lockControls = x;
     }
 
     void CoffeeHit()
     {
         score += 100;
+    }
+
+    void StartScore(float x)
+    {
+        score = x;
     }
 
 }

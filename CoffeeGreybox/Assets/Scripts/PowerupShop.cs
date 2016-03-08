@@ -26,22 +26,27 @@ public class PowerupShop : MonoBehaviour {
         if (other.gameObject.tag == "Shop" && choosing)
         {
             Time.timeScale = 0.5f;
-            playerView.SendMessage("Instore", true);
-            gameObject.SendMessage("Instore", true);
+            playerView.SendMessage("LockControl", true);
+            gameObject.SendMessage("LockControl", true);
             storeUI.SetActive(true);
             if (Input.GetKey(KeyCode.LeftControl))
             {
                 //choose upgrade 1
+                //Say, refill health
+                gameObject.SendMessage("FullHealth");
                 Chosen();
             }
             else if (Input.GetKey(KeyCode.LeftAlt))
             {
                 //choose upgrade 2
+                //Say, refill ammo
+                gameObject.SendMessage("FullAmmo");
                 Chosen();
             }
             else if (Input.GetKey(KeyCode.Space))
             {
                 //choose upgrade 3
+                //Speedup or something
                 Chosen();
             }
         }
@@ -52,8 +57,8 @@ public class PowerupShop : MonoBehaviour {
         if (other.gameObject.tag == "Shop")
         {
             Time.timeScale = 1f;
-            playerView.SendMessage("Instore", false);
-            gameObject.SendMessage("Instore", false);
+            playerView.SendMessage("LockControl", false);
+            gameObject.SendMessage("LockControl", false);
             storeUI.SetActive(false);
             choosing = true; //Reset value for next time we enter a store
         }
