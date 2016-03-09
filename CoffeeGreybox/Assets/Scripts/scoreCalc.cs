@@ -25,10 +25,6 @@ public class scoreCalc : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        //references to the things
-
-
-
         // For now, a generic 30 - can change this by weekday or whatever
         timeBonus = 30;
 	
@@ -104,7 +100,9 @@ public class scoreCalc : MonoBehaviour {
         playerView.transform.position = Vector3.zero;
         player.transform.position = Vector3.zero;
         //reset player to lane 2
-
+        playerView.SendMessage("ResetLane", 2);
+        //refill player health
+        player.SendMessage("FullHealth");
         //new level timer
         levelTime = 0;
         //regain player control
@@ -112,6 +110,5 @@ public class scoreCalc : MonoBehaviour {
         playerView.SendMessage("LockControl", false);
         //hide win screen
         winDisplay.SetActive(false);
-        playerView.SendMessage("ResetLane", 2);
     }
 }

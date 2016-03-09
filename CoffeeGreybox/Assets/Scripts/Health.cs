@@ -4,8 +4,7 @@ using UnityEngine.UI;
 using System;
 
 public class Health : MonoBehaviour {
-
-    public int startHealth;
+    
     public int health;
     public GameObject playerView;
     public GameObject scoreTracker;
@@ -16,8 +15,7 @@ public class Health : MonoBehaviour {
     // Use this for initialization
     void Start() {
 
-        health = startHealth;
-        HealthChange();
+        FullHealth();
 
     }
 
