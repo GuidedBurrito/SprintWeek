@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 using System;
 
 public class Health : MonoBehaviour {
@@ -9,12 +8,8 @@ public class Health : MonoBehaviour {
     public int startHealth;
     public int health;
     public GameObject playerView;
-    public float timeBonus;
-    public Text timeScoreDisplay;
-    public Text finalScoreDisplay;
-    public int finalScore;
-    public float bonusScore;
-    
+    public GameObject scoreTracker;
+
     public GameObject[] healthDisplay;
     public GameObject winDisplay;
 
@@ -28,29 +23,9 @@ public class Health : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (winDisplay.activeSelf)
-        {
-            if (Input.GetKeyDown(KeyCode.X))
-            {
-                if (timeScoreDisplay.text == "0")
-                {
-                    SceneManager.LoadScene(0);
-                    //DontDestroyOnLoad > How??
-                }
-                else
-                {
-                    timeScoreDisplay.text = "0";
-                    finalScoreDisplay.text = (finalScore + bonusScore).ToString("f0");
-                }
 
-            }
-        }
     }
 
-    private void DontDestroyOnLoad(int finalScore)
-    {
-        throw new NotImplementedException();
-    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -60,7 +35,7 @@ public class Health : MonoBehaviour {
 
             if (health < 1)
             {
-                //game over
+                Death();
             }
 
             HealthChange();
@@ -69,11 +44,12 @@ public class Health : MonoBehaviour {
         {
             health = 0;
             HealthChange();
-            //game over
+            Death();
+
         }
         else if (other.gameObject.tag == "End")
         {
-            LevelClear();
+            scoreTracker.SendMessage("LevelClear");
         }
     }
 
@@ -96,27 +72,16 @@ public class Health : MonoBehaviour {
         }
     }
 
-    void LevelClear()
+
+
+    void Death()
     {
-        //Lock Player controls
-        gameObject.SendMessage("LockControl", true);
-        playerView.SendMessage("LockControl", true);
+        health = 4;
+        HealthChange();
+        scoreTracker.SendMessage("LoadLevel");
+        //check life count
+        // if lives, decrement by 1 and reload that weekday
+        // if no lives, gameover sequence
 
-        //Display score/some kind of win animation
-        winDisplay.SetActive(true);
-        bonusScore = (timeBonus - Time.timeSinceLevelLoad) * 100;
-        if (bonusScore < 0)
-        {
-            bonusScore = 0;
-        }
-        timeScoreDisplay.text = bonusScore.ToString("f0"); //<will be appended to score
-
-
-        //Reset level
-    }
-
-    void FinalScore(int x)
-    {
-        finalScore = x;
     }
 }

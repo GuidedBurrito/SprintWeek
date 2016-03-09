@@ -5,7 +5,7 @@ public class CoffeeThrow : MonoBehaviour {
 
     public float ammo;
 
-    public GameObject playerView;
+    public GameObject scoreTracker;
     bool lockControls;
 
     RaycastHit coffeeThrow;
@@ -27,7 +27,7 @@ public class CoffeeThrow : MonoBehaviour {
 
             if (Physics.Raycast(gameObject.transform.position, Vector3.forward, out coffeeThrow) && (coffeeThrow.collider.tag == "House"))
             {
-                playerView.SendMessage("CoffeeHit"); //...increment score for hitting the house
+                scoreTracker.SendMessage("CoffeeHit"); //...increment score for hitting the house
 
                 //If raycast hits enemy, do something else
             }

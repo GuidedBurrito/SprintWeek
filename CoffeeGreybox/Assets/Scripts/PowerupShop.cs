@@ -26,7 +26,6 @@ public class PowerupShop : MonoBehaviour {
         if (other.gameObject.tag == "Shop" && choosing)
         {
             Time.timeScale = 0.5f;
-            playerView.SendMessage("LockControl", true);
             gameObject.SendMessage("LockControl", true);
             storeUI.SetActive(true);
             if (Input.GetKey(KeyCode.LeftControl))
@@ -57,7 +56,6 @@ public class PowerupShop : MonoBehaviour {
         if (other.gameObject.tag == "Shop")
         {
             Time.timeScale = 1f;
-            playerView.SendMessage("LockControl", false);
             gameObject.SendMessage("LockControl", false);
             storeUI.SetActive(false);
             choosing = true; //Reset value for next time we enter a store

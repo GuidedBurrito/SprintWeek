@@ -1,26 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.UI;
 
 public class AtuoMove : MonoBehaviour {
 
     public GameObject player;
+    public GameObject scoreTracker;
 
     float playerSpeed;
     public float defaultSpeed;
     public float upSpeed;
     public float downSpeed;
     
-    public Text timeDisplay;
-    public Text scoreDisplay;
-    public Text finalScore;
 
     public float laneWidth;
     int laneNo;
     bool lockControls; //If player's in a store or end of level
-    
-    public float timeScore;
-    float score;
 
 	// Use this for initialization
 	void Start () {
@@ -33,12 +27,10 @@ public class AtuoMove : MonoBehaviour {
 	void Update () {
         
         //Automatic player movement
-        if (finalScore.IsActive())
+        if (!lockControls)
         {
-            player.SendMessage("FinalScore", score);
-            return;
+            this.transform.position += Vector3.right * Time.deltaTime * playerSpeed;
         }
-        this.transform.position += Vector3.right * Time.deltaTime * playerSpeed;
 
         //Player input
         if (Input.GetKeyDown(KeyCode.UpArrow) && laneNo > 1 && !lockControls)
@@ -68,15 +60,6 @@ public class AtuoMove : MonoBehaviour {
         {
             playerSpeed = defaultSpeed;
         }
-
-        //Display level time
-        timeScore = Time.timeSinceLevelLoad;
-        //Convert time to m:ss
-        timeDisplay.text = Mathf.Floor(timeScore/60).ToString("f0") + ":" + (timeScore % 60).ToString("00");
-
-        //Display score
-        scoreDisplay.text = score.ToString("f0");
-        finalScore.text = score.ToString("f0");
     }
 
     void LockControl(bool x)
@@ -84,14 +67,9 @@ public class AtuoMove : MonoBehaviour {
         lockControls = x;
     }
 
-    void CoffeeHit()
+    void ResetLane(int lane)
     {
-        score += 100;
-    }
-
-    void StartScore(float x)
-    {
-        score = x;
+        laneNo = lane;
     }
 
 }
