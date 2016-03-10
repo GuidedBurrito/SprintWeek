@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 206f08679135ff94b82d0e92b0115167
+timeCreated: 1457544569
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Assembled Player_0
+    21300002: Assembled Player_1
+    21300004: Assembled Player_2
+    21300006: Assembled Player_3
+    21300008: Assembled Player_4
+    21300010: Assembled Player_5
+    21300012: Assembled Player_6
+    21300014: Assembled Player_7
+    21300016: Assembled Player_8
+    21300018: Assembled Player_9
+    21300020: Assembled Player_10
+    21300022: Assembled Player_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Assembled Player_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 139
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 33}
+        - {x: -26.5, y: -10}
+        - {x: -13.5, y: -33}
+        - {x: 26.5, y: -33}
+        - {x: 26.5, y: 13}
+        - {x: 14.5, y: 33}
+    - name: Assembled Player_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 139
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 33}
+        - {x: -26, y: -7}
+        - {x: -4, y: -33}
+        - {x: 26, y: -33}
+        - {x: 26, y: -3}
+        - {x: 14, y: 33}
+    - name: Assembled Player_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 139
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 33.5}
+        - {x: -25, y: -15.5}
+        - {x: -2, y: -33.5}
+        - {x: 19, y: -33.5}
+        - {x: 25, y: -17.5}
+        - {x: 25, y: 1.5}
+        - {x: 14, y: 33.5}
+    - name: Assembled Player_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 139
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 5.5}
+        - {x: 14, y: 34.5}
+        - {x: -25, y: 34.5}
+        - {x: -25, y: -6.5}
+        - {x: -10, y: -34.5}
+        - {x: 7, y: -34.5}
+        - {x: 6, y: -31.5}
+        - {x: 12, y: -34.5}
+        - {x: 25, y: -34.5}
+    - name: Assembled Player_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 33}
+        - {x: -26, y: -23}
+        - {x: -15, y: -33}
+        - {x: 26, y: -33}
+        - {x: 26, y: -1}
+        - {x: 14, y: 33}
+    - name: Assembled Player_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 70
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 33}
+        - {x: -26, y: -7}
+        - {x: -4, y: -33}
+        - {x: 26, y: -33}
+        - {x: 26, y: -3}
+        - {x: 14, y: 33}
+    - name: Assembled Player_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 70
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 33.5}
+        - {x: -25, y: -15.5}
+        - {x: -2, y: -33.5}
+        - {x: 19, y: -33.5}
+        - {x: 25, y: -17.5}
+        - {x: 25, y: 1.5}
+        - {x: 14, y: 33.5}
+    - name: Assembled Player_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 70
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 5.5}
+        - {x: 14, y: 34.5}
+        - {x: -25, y: 34.5}
+        - {x: -25, y: -6.5}
+        - {x: -10, y: -34.5}
+        - {x: 7, y: -34.5}
+        - {x: 6, y: -31.5}
+        - {x: 12, y: -34.5}
+        - {x: 25, y: -34.5}
+    - name: Assembled Player_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 33}
+        - {x: -26, y: -23}
+        - {x: -15, y: -33}
+        - {x: 26, y: -33}
+        - {x: 26, y: -1}
+        - {x: 14, y: 33}
+    - name: Assembled Player_9
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 33}
+        - {x: -26.5, y: -5}
+        - {x: -3.5, y: -33}
+        - {x: 26.5, y: -33}
+        - {x: 26.5, y: -4}
+        - {x: 13.5, y: 33}
+    - name: Assembled Player_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 33}
+        - {x: -25, y: -12}
+        - {x: -8, y: -33}
+        - {x: 17, y: -33}
+        - {x: 25, y: -22}
+        - {x: 25, y: 3}
+        - {x: 18, y: 33}
+    - name: Assembled Player_11
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 5.5}
+        - {x: 14, y: 34.5}
+        - {x: -25, y: 34.5}
+        - {x: -25, y: -6.5}
+        - {x: -10, y: -34.5}
+        - {x: 7, y: -34.5}
+        - {x: 6, y: -31.5}
+        - {x: 12, y: -34.5}
+        - {x: 25, y: -34.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

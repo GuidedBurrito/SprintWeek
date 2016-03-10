@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: de74a17a97eab8547a9dd410a14df2b6
+timeCreated: 1457560329
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spray_0
+    21300002: spray_1
+    21300004: spray_2
+    21300006: spray_3
+    21300008: spray_4
+    21300010: spray_5
+    21300012: spray_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: spray_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spray_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 43
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: 0, y: 11}
+        - {x: 0, y: -16}
+        - {x: 38, y: -16}
+        - {x: 43, y: -12}
+        - {x: 43, y: 12}
+        - {x: 42, y: 16}
+    - name: spray_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 72
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 16}
+        - {x: 0, y: 11}
+        - {x: 0, y: -16}
+        - {x: 67, y: -16}
+        - {x: 72, y: -10}
+        - {x: 72, y: 10}
+        - {x: 66, y: 16}
+    - name: spray_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 0
+        width: 106
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60, y: 16}
+        - {x: 0, y: 11}
+        - {x: 0, y: -16}
+        - {x: 101, y: -16}
+        - {x: 106, y: -10}
+        - {x: 106, y: 10}
+        - {x: 100, y: 16}
+    - name: spray_4
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 0
+        width: 139
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 16}
+        - {x: 0, y: 11}
+        - {x: 0, y: -16}
+        - {x: 137, y: -16}
+        - {x: 139, y: -11}
+        - {x: 139, y: 15}
+        - {x: 138, y: 16}
+    - name: spray_5
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 0
+        width: 197
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 16}
+        - {x: 0, y: 10}
+        - {x: 0, y: -16}
+        - {x: 197, y: -16}
+        - {x: 197, y: 10}
+        - {x: 191, y: 16}
+    - name: spray_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 257
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 168, y: 16}
+        - {x: 0, y: 10}
+        - {x: 0, y: -16}
+        - {x: 257, y: -16}
+        - {x: 257, y: 10}
+        - {x: 250, y: 16}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

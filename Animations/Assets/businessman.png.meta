@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 1734588a93efc724f8416127fb5e3b44
+timeCreated: 1457561053
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: businessman_0
+    21300002: businessman_1
+    21300004: businessman_2
+    21300006: businessman_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: businessman_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 96
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 102.5}
+        - {x: -48, y: -102.5}
+        - {x: 48, y: -102.5}
+        - {x: 48, y: 89.5}
+        - {x: 47, y: 102.5}
+    - name: businessman_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 85
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 106}
+        - {x: -42.5, y: -5}
+        - {x: -29.5, y: -106}
+        - {x: 20.5, y: -106}
+        - {x: 42.5, y: -69}
+        - {x: 42.5, y: 106}
+    - name: businessman_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -27}
+        - {x: 38, y: -23}
+        - {x: 36, y: -21}
+        - {x: 34, y: -21}
+        - {x: 34, y: -19}
+        - {x: 32, y: -17}
+        - {x: 34, y: -13}
+        - {x: 34, y: -19}
+        - {x: 36, y: -21}
+        - {x: 38, y: -21}
+        - {x: 38, y: -35}
+        - {x: 40, y: -37}
+        - {x: 59, y: -43}
+        - {x: 60, y: -40}
+        - {x: 60, y: 22}
+        - {x: 34, y: 96}
+        - {x: 19, y: 103}
+        - {x: -53, y: 103}
+        - {x: -60, y: 74}
+        - {x: -60, y: -89}
+        - {x: -41, y: -103}
+        - {x: 38, y: -103}
+        - {x: 48, y: -94}
+        - {x: 47, y: -77}
+        - {x: 28, y: -44}
+    - name: businessman_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 86
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 106}
+        - {x: -43, y: -5}
+        - {x: -30, y: -106}
+        - {x: 20, y: -106}
+        - {x: 43, y: -43}
+        - {x: 43, y: 103}
+        - {x: 33, y: 106}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
