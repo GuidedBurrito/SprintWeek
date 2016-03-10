@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: 33e6456465004af4b9b19f01d05e77ed
+timeCreated: 1457628862
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: coffee stall_0
+    21300002: coffee stall_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: coffee stall_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 476
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 209, y: -69}
+        - {x: 224, y: -4}
+        - {x: 232, y: 28}
+        - {x: 238, y: 53}
+        - {x: 238, y: 78}
+        - {x: 222, y: 86}
+        - {x: 180, y: 105}
+        - {x: 142, y: 142}
+        - {x: 140, y: 148}
+        - {x: 125, y: 148}
+        - {x: 117, y: 144}
+        - {x: 101, y: 139}
+        - {x: 99, y: 135}
+        - {x: 69, y: 135}
+        - {x: 67, y: 131}
+        - {x: 25, y: 131}
+        - {x: 23, y: 127}
+        - {x: -26, y: 130}
+        - {x: -70, y: 134}
+        - {x: -102, y: 138}
+        - {x: -127, y: 148}
+        - {x: -140, y: 148}
+        - {x: -151, y: 135}
+        - {x: -180, y: 104}
+        - {x: -187, y: 103}
+        - {x: -211, y: 91}
+        - {x: -223, y: 87}
+        - {x: -231, y: 83}
+        - {x: -238, y: 78}
+        - {x: -238, y: 53}
+        - {x: -237, y: 43}
+        - {x: -213, y: -53}
+        - {x: -210, y: -56}
+        - {x: -213, y: -81}
+        - {x: -210, y: -82}
+        - {x: -192, y: -82}
+        - {x: -192, y: -148}
+        - {x: 192, y: -148}
+        - {x: 210, y: -82}
+        - {x: 212, y: -80}
+        - {x: 213, y: -71}
+    - name: coffee stall_1
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 0
+        width: 476
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 209, y: -69}
+        - {x: 224, y: -4}
+        - {x: 232, y: 28}
+        - {x: 238, y: 53}
+        - {x: 238, y: 78}
+        - {x: 222, y: 86}
+        - {x: 180, y: 105}
+        - {x: 142, y: 142}
+        - {x: 140, y: 148}
+        - {x: 125, y: 148}
+        - {x: 117, y: 144}
+        - {x: 101, y: 139}
+        - {x: 99, y: 135}
+        - {x: 69, y: 135}
+        - {x: 67, y: 131}
+        - {x: 25, y: 131}
+        - {x: 23, y: 127}
+        - {x: -26, y: 130}
+        - {x: -70, y: 134}
+        - {x: -102, y: 138}
+        - {x: -127, y: 148}
+        - {x: -140, y: 148}
+        - {x: -151, y: 135}
+        - {x: -180, y: 104}
+        - {x: -187, y: 103}
+        - {x: -211, y: 91}
+        - {x: -223, y: 87}
+        - {x: -231, y: 83}
+        - {x: -238, y: 78}
+        - {x: -238, y: 53}
+        - {x: -237, y: 43}
+        - {x: -213, y: -53}
+        - {x: -210, y: -56}
+        - {x: -213, y: -81}
+        - {x: -210, y: -82}
+        - {x: -192, y: -82}
+        - {x: -192, y: -148}
+        - {x: 192, y: -148}
+        - {x: 210, y: -82}
+        - {x: 212, y: -80}
+        - {x: 213, y: -71}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
