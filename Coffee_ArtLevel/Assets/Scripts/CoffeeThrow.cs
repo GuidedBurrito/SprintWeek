@@ -11,6 +11,9 @@ public class CoffeeThrow : MonoBehaviour {
     RaycastHit coffeeThrow;
     
     public RectTransform ammoGague;
+    public GameObject sprayPrefab;
+    public bool spraying;
+    GameObject spray;
 
     // Use this for initialization
     void Start () {
@@ -20,9 +23,12 @@ public class CoffeeThrow : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        //Shoot if we have ammo
         if (Input.GetAxis("CoffeeThrow") > 0 && ammo > 0 && !lockControls)
         {
-            //Shoot if we have ammo and aren't currently in a store
+            Shoot();
+            spraying = true;
+            //animate spray
             ammo -= 1;
 
             if (Physics.Raycast(gameObject.transform.position, Vector3.right, out coffeeThrow) && (coffeeThrow.collider.tag == "Enemy"))
@@ -30,6 +36,15 @@ public class CoffeeThrow : MonoBehaviour {
                 scoreTracker.SendMessage("CoffeeHit"); //...increment score for hitting enemy
                 coffeeThrow.collider.gameObject.SendMessage("CoffeeHit"); //Tell enemy they were hit
                 
+            }
+            spray.transform.position = transform.position + new Vector3(2.52f, -0.6f, 0);
+        }
+        else
+        {
+            spraying = false;
+            if (spray)
+            {
+                Destroy(spray);
             }
         }
         
@@ -46,4 +61,14 @@ public class CoffeeThrow : MonoBehaviour {
     {
         lockControls = x;
     }
+
+    void Shoot()
+    {
+        if (!spraying)
+        {
+            spray = Instantiate(sprayPrefab, transform.position + new Vector3(2.52f, -0.6f, 0), Quaternion.identity) as GameObject;
+            spray.GetComponent<Animator>().SetBool("Spray", true);
+        }
+    }
+
 }

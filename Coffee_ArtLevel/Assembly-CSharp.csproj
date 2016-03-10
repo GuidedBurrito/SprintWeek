@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AnimationStuff\ChangeEmUp.cs" />
      <Compile Include="Assets\Scripts\AtuoMove.cs" />
      <Compile Include="Assets\Scripts\CoffeeThrow.cs" />
      <Compile Include="Assets\Scripts\CoinStart.cs" />

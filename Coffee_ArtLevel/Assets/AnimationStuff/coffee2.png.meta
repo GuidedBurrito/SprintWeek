@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: 376974f0b08fd344d93f7fe5844b51e2
+timeCreated: 1457639324
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: coffee2_0
+    21300002: coffee2_1
+    21300004: coffee2_2
+    21300006: coffee2_3
+    21300008: coffee2_4
+    21300010: coffee2_5
+    21300012: coffee2_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: coffee2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 392
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -158, y: 30}
+        - {x: -194, y: 16}
+        - {x: -194, y: -9}
+        - {x: -161, y: -30}
+        - {x: -151, y: -30}
+        - {x: -148, y: -26}
+        - {x: -143, y: -23}
+        - {x: -144, y: -23}
+        - {x: -142, y: -30}
+        - {x: -126, y: -30}
+        - {x: -106, y: -21}
+        - {x: -106, y: 22}
+        - {x: -110, y: 30}
+      - - {x: -166, y: -18}
+        - {x: -166, y: -24}
+        - {x: -164, y: -26}
+        - {x: -160, y: -26}
+        - {x: -158, y: -25}
+        - {x: -158, y: -18}
+      - - {x: -172, y: 18}
+        - {x: -174, y: 16}
+        - {x: -174, y: 12}
+        - {x: -172, y: 10}
+        - {x: -168, y: 10}
+        - {x: -166, y: 12}
+        - {x: -166, y: 16}
+        - {x: -168, y: 18}
+    - name: coffee2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 392
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -75, y: 30}
+        - {x: -86, y: 30}
+        - {x: -86, y: 24}
+        - {x: -84, y: 22}
+        - {x: -82, y: 22}
+        - {x: -82, y: 20}
+        - {x: -80, y: 18}
+        - {x: -82, y: 18}
+        - {x: -82, y: 20}
+        - {x: -84, y: 22}
+        - {x: -96, y: 22}
+        - {x: -98, y: 20}
+        - {x: -105, y: 15}
+        - {x: -153, y: 11}
+        - {x: -194, y: 6}
+        - {x: -194, y: -2}
+        - {x: -177, y: -8}
+        - {x: -97, y: -23}
+        - {x: -84, y: -22}
+        - {x: -82, y: -20}
+        - {x: -82, y: -18}
+        - {x: -78, y: -18}
+        - {x: -82, y: -19}
+        - {x: -82, y: -22}
+        - {x: -84, y: -22}
+        - {x: -86, y: -24}
+        - {x: -86, y: -30}
+        - {x: -69, y: -30}
+        - {x: -66, y: -29}
+        - {x: -46, y: -13}
+        - {x: -46, y: 13}
+        - {x: -67, y: 28}
+      - - {x: -109, y: -18}
+        - {x: -110, y: -20}
+        - {x: -110, y: -24}
+        - {x: -109, y: -26}
+        - {x: -102, y: -26}
+        - {x: -102, y: -19}
+        - {x: -104, y: -18}
+      - - {x: -116, y: 18}
+        - {x: -118, y: 16}
+        - {x: -118, y: 12}
+        - {x: -116, y: 10}
+        - {x: -112, y: 10}
+        - {x: -110, y: 12}
+        - {x: -110, y: 16}
+        - {x: -112, y: 18}
+    - name: coffee2_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 392
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -77, y: 30}
+        - {x: -194, y: 7}
+        - {x: -194, y: -13}
+        - {x: -90, y: -30}
+        - {x: -29, y: -30}
+        - {x: -28, y: -26}
+        - {x: -23, y: -23}
+        - {x: -24, y: -23}
+        - {x: -23, y: -30}
+        - {x: -11, y: -30}
+        - {x: -6, y: -28}
+        - {x: 14, y: -14}
+        - {x: 14, y: 19}
+        - {x: -10, y: 30}
+      - - {x: -46, y: -18}
+        - {x: -46, y: -26}
+        - {x: -38, y: -26}
+        - {x: -38, y: -19}
+        - {x: -40, y: -18}
+      - - {x: -54, y: 18}
+        - {x: -54, y: 11}
+        - {x: -52, y: 10}
+        - {x: -46, y: 10}
+        - {x: -46, y: 18}
+    - name: coffee2_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 392
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -22}
+        - {x: 34, y: -29}
+        - {x: 36, y: -30}
+        - {x: 42, y: -30}
+        - {x: 42, y: -22}
+      - - {x: 10, y: -18}
+        - {x: 10, y: -26}
+        - {x: 18, y: -26}
+        - {x: 18, y: -19}
+        - {x: 16, y: -18}
+      - - {x: 64, y: 26}
+        - {x: -37, y: 26}
+        - {x: -194, y: 7}
+        - {x: -194, y: -15}
+        - {x: -93, y: -26}
+        - {x: 58, y: -26}
+        - {x: 74, y: -13}
+        - {x: 74, y: 11}
+        - {x: 73, y: 15}
+      - - {x: 2, y: 18}
+        - {x: 2, y: 11}
+        - {x: 4, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: 18}
+      - - {x: 34, y: 30}
+        - {x: 34, y: 23}
+        - {x: 36, y: 22}
+        - {x: 42, y: 22}
+        - {x: 42, y: 30}
+    - name: coffee2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 392
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111, y: 30}
+        - {x: -18, y: 30}
+        - {x: -193, y: 7}
+        - {x: -194, y: 6}
+        - {x: -194, y: -7}
+        - {x: 44, y: -30}
+        - {x: 114, y: -30}
+        - {x: 134, y: -17}
+        - {x: 134, y: 11}
+        - {x: 133, y: 15}
+      - - {x: 74, y: -18}
+        - {x: 74, y: -26}
+        - {x: 81, y: -26}
+        - {x: 82, y: -24}
+        - {x: 82, y: -18}
+      - - {x: 66, y: 18}
+        - {x: 66, y: 10}
+        - {x: 74, y: 10}
+        - {x: 74, y: 18}
+    - name: coffee2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 392
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 154, y: -22}
+        - {x: 154, y: -30}
+        - {x: 161, y: -30}
+        - {x: 162, y: -28}
+        - {x: 162, y: -22}
+      - - {x: 130, y: -18}
+        - {x: 130, y: -26}
+        - {x: 137, y: -26}
+        - {x: 138, y: -24}
+        - {x: 138, y: -18}
+      - - {x: 183, y: 26}
+        - {x: 40, y: 26}
+        - {x: -194, y: 8}
+        - {x: -194, y: -2}
+        - {x: -157, y: -9}
+        - {x: 39, y: -26}
+        - {x: 186, y: -26}
+        - {x: 194, y: -15}
+        - {x: 194, y: 8}
+        - {x: 193, y: 15}
+      - - {x: 122, y: 18}
+        - {x: 122, y: 10}
+        - {x: 130, y: 10}
+        - {x: 130, y: 18}
+      - - {x: 154, y: 30}
+        - {x: 154, y: 22}
+        - {x: 162, y: 22}
+        - {x: 162, y: 30}
+    - name: coffee2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 392
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 169, y: 30}
+        - {x: 155, y: 30}
+        - {x: 152, y: 29}
+        - {x: 154, y: 24}
+        - {x: 156, y: 22}
+        - {x: 162, y: 22}
+        - {x: 144, y: 22}
+        - {x: 141, y: 21}
+        - {x: 133, y: 13}
+        - {x: -129, y: 11}
+        - {x: -193, y: 7}
+        - {x: -194, y: 6}
+        - {x: -194, y: -8}
+        - {x: 28, y: -30}
+        - {x: 180, y: -30}
+        - {x: 194, y: -13}
+        - {x: 194, y: 9}
+        - {x: 193, y: 15}
+      - - {x: 134, y: -18}
+        - {x: 134, y: -26}
+        - {x: 141, y: -26}
+        - {x: 142, y: -24}
+        - {x: 142, y: -18}
+      - - {x: 126, y: 18}
+        - {x: 126, y: 10}
+        - {x: 134, y: 10}
+        - {x: 134, y: 18}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
