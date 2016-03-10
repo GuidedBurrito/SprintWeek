@@ -60,7 +60,6 @@ public class CoffeeThrow : MonoBehaviour {
         if (!spraying)
         {
             spray = Instantiate(sprayPrefab, transform.position + new Vector3(2.52f, -0.6f, 0), Quaternion.identity) as GameObject;
-            spray.GetComponent<Animator>().SetBool("Spray", true);
         }
     }
 
