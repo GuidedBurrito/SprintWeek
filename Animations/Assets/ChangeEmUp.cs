@@ -5,9 +5,12 @@ public class ChangeEmUp : MonoBehaviour {
 
     public GameObject ob1;
     public GameObject ob2;
+    public GameObject ob3;
+    public GameObject ob4;
     public GameObject SprayPrefab;
     public GameObject Sprayer;
     public float ammo = 100;
+    public float Beans = 0;
 
     GameObject spray;
 
@@ -28,6 +31,8 @@ public class ChangeEmUp : MonoBehaviour {
 	void Update () {
         ob1.transform.position -= new Vector3(0.01f, 0, 0);
         ob2.transform.position -= new Vector3(0.01f, 0, 0);
+        ob3.transform.position -= new Vector3(0.01f, 0, 0);
+        ob4.transform.position -= new Vector3(0.01f, 0, 0);
 
         if (Input.GetKeyDown("space"))
         {
@@ -58,6 +63,13 @@ public class ChangeEmUp : MonoBehaviour {
         {
             stage--;
             animator.SetFloat("JarStage", stage);
+        }
+
+        if (collide.gameObject.tag == "Bean")
+        {
+            Beans++;
+            collide.GetComponent<Renderer>().enabled = false;
+
         }
     }
 
