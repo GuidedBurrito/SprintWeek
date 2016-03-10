@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AtuoMove.cs" />
      <Compile Include="Assets\Scripts\CoffeeThrow.cs" />
+     <Compile Include="Assets\Scripts\CoinStart.cs" />
      <Compile Include="Assets\Scripts\EnemyWalk.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\PowerupShop.cs" />

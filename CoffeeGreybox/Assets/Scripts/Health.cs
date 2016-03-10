@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System;
 
 public class Health : MonoBehaviour {
@@ -8,14 +9,16 @@ public class Health : MonoBehaviour {
     public int health;
     public GameObject playerView;
     public GameObject scoreTracker;
-
-    public GameObject[] healthDisplay;
+    
     public GameObject winDisplay;
+    public int lives;
+    public Text lifeDisplay;
 
     // Use this for initialization
     void Start() {
 
         FullHealth();
+        lifeDisplay.text = lives.ToString();
 
     }
 
@@ -35,13 +38,11 @@ public class Health : MonoBehaviour {
             {
                 Death();
             }
-
-            HealthChange();
+            
         }
         else if (other.gameObject.tag == "Car")
         {
             health = 0;
-            HealthChange();
             Death();
 
         }
@@ -54,32 +55,24 @@ public class Health : MonoBehaviour {
     void FullHealth()
     {
         health = 4;
-        HealthChange();
     }
-
-    void HealthChange()
-    {
-        //Update UI
-        for (int i = 0; i < health; i++)
-        {
-            healthDisplay[i].SetActive(true);
-        }
-        for (int i = health; i < healthDisplay.Length; i++)
-        {
-            healthDisplay[i].SetActive(false);
-        }
-    }
-
 
 
     void Death()
     {
-        health = 4;
-        HealthChange();
-        scoreTracker.SendMessage("LoadLevel");
-        //check life count
-        // if lives, decrement by 1 and reload that weekday
-        // if no lives, gameover sequence
-
+        lives--;
+        if (lives >= 0)
+        {
+            //retry same level
+            health = 4;
+            lifeDisplay.text = lives.ToString();
+            scoreTracker.SendMessage("LoadLevel");
+        }
+        else
+        {
+            //Gameover
+            SceneManager.LoadScene(1);
+            //display score, return to title
+        }
     }
 }
