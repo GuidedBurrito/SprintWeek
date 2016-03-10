@@ -26,17 +26,10 @@ public class CoffeeThrow : MonoBehaviour {
         //Shoot if we have ammo
         if (Input.GetAxis("CoffeeThrow") > 0 && ammo > 0 && !lockControls)
         {
+            //animate spray
             Shoot();
             spraying = true;
-            //animate spray
             ammo -= 1;
-
-            if (Physics.Raycast(gameObject.transform.position, Vector3.right, out coffeeThrow) && (coffeeThrow.collider.tag == "Enemy"))
-            {
-                scoreTracker.SendMessage("CoffeeHit"); //...increment score for hitting enemy
-                coffeeThrow.collider.gameObject.SendMessage("CoffeeHit"); //Tell enemy they were hit
-                
-            }
             spray.transform.position = transform.position + new Vector3(2.52f, -0.6f, 0);
         }
         else

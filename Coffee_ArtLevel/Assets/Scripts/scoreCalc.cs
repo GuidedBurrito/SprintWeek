@@ -69,7 +69,7 @@ public class scoreCalc : MonoBehaviour {
 
     void CoffeeHit()
     {
-        score += 100;
+        score += 5000;
     }
 
     void LevelClear()

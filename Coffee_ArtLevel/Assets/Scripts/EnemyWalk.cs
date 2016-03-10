@@ -5,7 +5,8 @@ public class EnemyWalk : MonoBehaviour {
 
     public float enemyWalkSpeed;
     public bool coffeeHitGood;      //Does the player want to hit this enemy?
-    bool wasHit;    // If this enemy has been hit yet
+    public GameObject scoreTracker;
+    bool movingUp;  //Sprayed out of the way
 
 	// Use this for initialization
 	void Start () {
@@ -15,17 +16,33 @@ public class EnemyWalk : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        this.transform.position += Vector3.left * Time.deltaTime * enemyWalkSpeed;
+        if (movingUp && transform.position.z < 5)
+        {
+            transform.position += Vector3.forward * Time.deltaTime * 4; //if proper enemy was hit, move until out of the way
+        }
+        else if (!movingUp)
+        {
+            this.transform.position += Vector3.left * Time.deltaTime * enemyWalkSpeed; //otherwise, keep moving forward
+        }
 	
 	}
 
-    void CoffeeHit()
+    void OnTriggerEnter(Collider other)
     {
-        if (wasHit)
+        if (other.gameObject.tag == "Ammo")
         {
-            return;
-        }
-        wasHit = true;
-        enemyWalkSpeed *= 2;
+            if (coffeeHitGood)
+            {
+                scoreTracker.SendMessage("CoffeeHit"); //...increment score for hitting proper enemy
+                //some animation
+                movingUp = true;
+            }
+            else
+            {
+                enemyWalkSpeed *= 2;
+                //some animation
+            }
+        }        
     }
+
 }

@@ -29,7 +29,6 @@ public class PowerupShop : MonoBehaviour {
         if (other.gameObject.tag == "Shop" && choosing)
         {
             Time.timeScale = 0.5f;
-            gameObject.SendMessage("LockControl", true);
             storeUI.SetActive(true);
             if (Input.GetKey(KeyCode.LeftControl))
             {
