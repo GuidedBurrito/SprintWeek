@@ -7,6 +7,7 @@ public class ChangeEmUp : MonoBehaviour {
     public GameObject ob2;
     public GameObject ob3;
     public GameObject ob4;
+    public GameObject ob5;
     public GameObject SprayPrefab;
     public GameObject Sprayer;
     public float ammo = 100;
@@ -19,7 +20,6 @@ public class ChangeEmUp : MonoBehaviour {
     public float stage = 3;
 
     Animator animator;
-    Animator sprayAnimator;
 
     // Use this for initialization
     void Start () {
@@ -33,6 +33,7 @@ public class ChangeEmUp : MonoBehaviour {
         ob2.transform.position -= new Vector3(0.01f, 0, 0);
         ob3.transform.position -= new Vector3(0.01f, 0, 0);
         ob4.transform.position -= new Vector3(0.01f, 0, 0);
+        ob5.transform.position -= new Vector3(0.01f, 0, 0);
 
         if (Input.GetKeyDown("space"))
         {
@@ -78,8 +79,7 @@ public class ChangeEmUp : MonoBehaviour {
         if (!spraying && ammo > 0)
         {
             spray = Instantiate(SprayPrefab, transform.position + new Vector3(0.25f, -0.11f, 0), Quaternion.identity) as GameObject;
-            sprayAnimator = spray.GetComponent<Animator>();
-            sprayAnimator.SetBool("Spray", true);
+
         }
     }
 }
