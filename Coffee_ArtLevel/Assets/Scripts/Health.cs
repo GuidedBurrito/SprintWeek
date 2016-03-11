@@ -67,7 +67,10 @@ public class Health : MonoBehaviour {
 
     void Death()
     {
-        lives--;
+        //play death animation before all that other stuff triggers
+        animator.SetFloat("JarStage", 0);
+
+        //lives--;
         if (lives >= 0)
         {
             //retry same level

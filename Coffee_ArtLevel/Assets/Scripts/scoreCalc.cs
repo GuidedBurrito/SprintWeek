@@ -100,7 +100,7 @@ public class scoreCalc : MonoBehaviour {
         playerView.transform.position = Vector3.zero;
         player.transform.position = Vector3.zero;
         //reset player to lane 2
-        playerView.SendMessage("ResetLane", 2);
+        playerView.SendMessage("ResetLane", 3);
         //refill player health
         player.SendMessage("FullHealth");
         //new level timer

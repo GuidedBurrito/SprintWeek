@@ -36,6 +36,7 @@ public class EnemyWalk : MonoBehaviour {
                 scoreTracker.SendMessage("CoffeeHit"); //...increment score for hitting proper enemy
                 //some animation
                 movingUp = true;
+                GetComponentInChildren<Animator>().SetTrigger("Happy");
             }
             else
             {

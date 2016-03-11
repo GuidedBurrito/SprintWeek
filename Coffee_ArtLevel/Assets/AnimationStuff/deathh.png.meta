@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 0c1aa61cde5de6f4bab6e15cc28d8e24
+timeCreated: 1457658177
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: deathh_0
+    21300002: deathh_1
+    21300004: deathh_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: deathh_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 248
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116, y: 134}
+        - {x: -122, y: 94}
+        - {x: -122, y: 92}
+        - {x: -103, y: 85}
+        - {x: -102, y: 80}
+        - {x: -100, y: 78}
+        - {x: -98, y: 78}
+        - {x: -98, y: 76}
+        - {x: -96, y: 74}
+        - {x: -94, y: 74}
+        - {x: -94, y: 72}
+        - {x: -92, y: 70}
+        - {x: -94, y: 66}
+        - {x: -94, y: 72}
+        - {x: -96, y: 74}
+        - {x: -98, y: 74}
+        - {x: -98, y: 76}
+        - {x: -100, y: 78}
+        - {x: -102, y: 78}
+        - {x: -102, y: 80}
+        - {x: -105, y: 86}
+        - {x: -113, y: 87}
+        - {x: -122, y: 79}
+        - {x: -122, y: -57}
+        - {x: -61, y: -130}
+        - {x: 86, y: -130}
+        - {x: 86, y: 3}
+        - {x: 53, y: 134}
+    - name: deathh_1
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 248
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: -5}
+        - {x: 89, y: 7}
+        - {x: 99, y: 51}
+        - {x: 93, y: 74}
+        - {x: -23, y: 74}
+        - {x: -90, y: 38}
+        - {x: -97, y: -33}
+        - {x: -122, y: -95}
+        - {x: -122, y: -134}
+        - {x: 121, y: -134}
+        - {x: 122, y: -125}
+        - {x: 122, y: -31}
+        - {x: 117, y: -29}
+    - name: deathh_2
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 248
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 54}
+        - {x: -6, y: -5}
+        - {x: -30, y: 1}
+        - {x: -60, y: 4}
+        - {x: -118, y: -114}
+        - {x: -118, y: -133}
+        - {x: -94, y: -134}
+        - {x: 114, y: -134}
+        - {x: 114, y: 8}
+        - {x: 112, y: 32}
+        - {x: 86, y: 53}
+        - {x: 85, y: 54}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

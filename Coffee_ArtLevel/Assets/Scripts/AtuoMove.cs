@@ -21,7 +21,7 @@ public class AtuoMove : MonoBehaviour {
     // Use this for initialization
     void Start () {
         playerSpeed = defaultSpeed;
-        laneNo = 2; // starts in the middle of the sidewalk
+        laneNo = 3; // starts in the middle of the sidewalk
 	 
 	}
 	
@@ -42,7 +42,7 @@ public class AtuoMove : MonoBehaviour {
             laneNo -= 1;
         }
 
-        if (Input.GetKeyDown(KeyCode.DownArrow) && laneNo < 4 && !lockControls)
+        if (Input.GetKeyDown(KeyCode.DownArrow) && laneNo < 5 && !lockControls)
         {
             //Move player down a lane, unless they're in the bottom lane or inside a store
             player.transform.position -= Vector3.forward * laneWidth;
