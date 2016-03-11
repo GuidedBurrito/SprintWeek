@@ -76,9 +76,9 @@ public class ChangeEmUp : MonoBehaviour {
 
     void Shoot()
     {
-        if (!spraying && ammo > 0)
+        if (!spraying && ammo > 0 && stage != -1)
         {
-            spray = Instantiate(SprayPrefab, transform.position + new Vector3(0.25f, -0.11f, 0), Quaternion.identity) as GameObject;
+            spray = Instantiate(SprayPrefab, transform.position + new Vector3(0.25f, 0.21f, 0), Quaternion.identity) as GameObject;
 
         }
     }

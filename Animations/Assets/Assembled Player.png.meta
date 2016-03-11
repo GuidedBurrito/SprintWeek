@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 206f08679135ff94b82d0e92b0115167
-timeCreated: 1457544569
+timeCreated: 1457659161
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -69,33 +69,35 @@ TextureImporter:
         y: 139
         width: 53
         height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -26.5, y: 33}
-        - {x: -26.5, y: -10}
-        - {x: -13.5, y: -33}
-        - {x: 26.5, y: -33}
-        - {x: 26.5, y: 13}
-        - {x: 14.5, y: 33}
+      - - {x: -26.5, y: 66}
+        - {x: -26.5, y: 23}
+        - {x: -13.5, y: 0}
+        - {x: 26.5, y: 0}
+        - {x: 26.5, y: 46}
+        - {x: 14.5, y: 66}
     - name: Assembled Player_1
       rect:
         serializedVersion: 2
-        x: 54
+        x: 55
         y: 139
         width: 52
         height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -26, y: 33}
-        - {x: -26, y: -7}
-        - {x: -4, y: -33}
-        - {x: 26, y: -33}
-        - {x: 26, y: -3}
-        - {x: 14, y: 33}
+      - - {x: 26, y: 26}
+        - {x: 12, y: 65}
+        - {x: 12, y: 66}
+        - {x: -26, y: 66}
+        - {x: -26, y: 23}
+        - {x: -11, y: 2}
+        - {x: -6, y: 0}
+        - {x: 26, y: 0}
     - name: Assembled Player_2
       rect:
         serializedVersion: 2
@@ -103,17 +105,17 @@ TextureImporter:
         y: 139
         width: 50
         height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -25, y: 33.5}
-        - {x: -25, y: -15.5}
-        - {x: -2, y: -33.5}
-        - {x: 19, y: -33.5}
-        - {x: 25, y: -17.5}
-        - {x: 25, y: 1.5}
-        - {x: 14, y: 33.5}
+      - - {x: -25, y: 67}
+        - {x: -25, y: 18}
+        - {x: -2, y: 0}
+        - {x: 19, y: 0}
+        - {x: 25, y: 16}
+        - {x: 25, y: 35}
+        - {x: 14, y: 67}
     - name: Assembled Player_3
       rect:
         serializedVersion: 2
@@ -121,19 +123,19 @@ TextureImporter:
         y: 139
         width: 50
         height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 25, y: 5.5}
-        - {x: 14, y: 34.5}
-        - {x: -25, y: 34.5}
-        - {x: -25, y: -6.5}
-        - {x: -10, y: -34.5}
-        - {x: 7, y: -34.5}
-        - {x: 6, y: -31.5}
-        - {x: 12, y: -34.5}
-        - {x: 25, y: -34.5}
+      - - {x: 25, y: 40}
+        - {x: 14, y: 69}
+        - {x: -25, y: 69}
+        - {x: -25, y: 28}
+        - {x: -10, y: 0}
+        - {x: 7, y: 0}
+        - {x: 6, y: 3}
+        - {x: 12, y: 0}
+        - {x: 25, y: 0}
     - name: Assembled Player_4
       rect:
         serializedVersion: 2
@@ -141,16 +143,16 @@ TextureImporter:
         y: 70
         width: 52
         height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -26, y: 33}
-        - {x: -26, y: -23}
-        - {x: -15, y: -33}
-        - {x: 26, y: -33}
-        - {x: 26, y: -1}
-        - {x: 14, y: 33}
+      - - {x: -26, y: 66}
+        - {x: -26, y: 10}
+        - {x: -15, y: 0}
+        - {x: 26, y: 0}
+        - {x: 26, y: 32}
+        - {x: 14, y: 66}
     - name: Assembled Player_5
       rect:
         serializedVersion: 2
@@ -158,16 +160,16 @@ TextureImporter:
         y: 70
         width: 52
         height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -26, y: 33}
-        - {x: -26, y: -7}
-        - {x: -4, y: -33}
-        - {x: 26, y: -33}
-        - {x: 26, y: -3}
-        - {x: 14, y: 33}
+      - - {x: -26, y: 66}
+        - {x: -26, y: 26}
+        - {x: -4, y: 0}
+        - {x: 26, y: 0}
+        - {x: 26, y: 30}
+        - {x: 14, y: 66}
     - name: Assembled Player_6
       rect:
         serializedVersion: 2
@@ -175,17 +177,17 @@ TextureImporter:
         y: 70
         width: 50
         height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -25, y: 33.5}
-        - {x: -25, y: -15.5}
-        - {x: -2, y: -33.5}
-        - {x: 19, y: -33.5}
-        - {x: 25, y: -17.5}
-        - {x: 25, y: 1.5}
-        - {x: 14, y: 33.5}
+      - - {x: -25, y: 67}
+        - {x: -25, y: 18}
+        - {x: -2, y: 0}
+        - {x: 19, y: 0}
+        - {x: 25, y: 16}
+        - {x: 25, y: 35}
+        - {x: 14, y: 67}
     - name: Assembled Player_7
       rect:
         serializedVersion: 2
@@ -193,19 +195,19 @@ TextureImporter:
         y: 70
         width: 50
         height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 25, y: 5.5}
-        - {x: 14, y: 34.5}
-        - {x: -25, y: 34.5}
-        - {x: -25, y: -6.5}
-        - {x: -10, y: -34.5}
-        - {x: 7, y: -34.5}
-        - {x: 6, y: -31.5}
-        - {x: 12, y: -34.5}
-        - {x: 25, y: -34.5}
+      - - {x: 25, y: 40}
+        - {x: 14, y: 69}
+        - {x: -25, y: 69}
+        - {x: -25, y: 28}
+        - {x: -10, y: 0}
+        - {x: 7, y: 0}
+        - {x: 6, y: 3}
+        - {x: 12, y: 0}
+        - {x: 25, y: 0}
     - name: Assembled Player_8
       rect:
         serializedVersion: 2
@@ -213,16 +215,16 @@ TextureImporter:
         y: 0
         width: 52
         height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -26, y: 33}
-        - {x: -26, y: -23}
-        - {x: -15, y: -33}
-        - {x: 26, y: -33}
-        - {x: 26, y: -1}
-        - {x: 14, y: 33}
+      - - {x: -26, y: 66}
+        - {x: -26, y: 10}
+        - {x: -15, y: 0}
+        - {x: 26, y: 0}
+        - {x: 26, y: 32}
+        - {x: 14, y: 66}
     - name: Assembled Player_9
       rect:
         serializedVersion: 2
@@ -230,34 +232,34 @@ TextureImporter:
         y: 0
         width: 53
         height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -26.5, y: 33}
-        - {x: -26.5, y: -5}
-        - {x: -3.5, y: -33}
-        - {x: 26.5, y: -33}
-        - {x: 26.5, y: -4}
-        - {x: 13.5, y: 33}
+      - - {x: -26.5, y: 66}
+        - {x: -26.5, y: 28}
+        - {x: -3.5, y: 0}
+        - {x: 26.5, y: 0}
+        - {x: 26.5, y: 29}
+        - {x: 13.5, y: 66}
     - name: Assembled Player_10
       rect:
         serializedVersion: 2
         x: 108
-        y: 1
+        y: 0
         width: 50
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -25, y: 33}
-        - {x: -25, y: -12}
-        - {x: -8, y: -33}
-        - {x: 17, y: -33}
-        - {x: 25, y: -22}
-        - {x: 25, y: 3}
-        - {x: 18, y: 33}
+      - - {x: -25, y: 67}
+        - {x: -25, y: 18}
+        - {x: -2, y: 0}
+        - {x: 19, y: 0}
+        - {x: 25, y: 16}
+        - {x: 25, y: 35}
+        - {x: 14, y: 67}
     - name: Assembled Player_11
       rect:
         serializedVersion: 2
@@ -265,19 +267,19 @@ TextureImporter:
         y: 0
         width: 50
         height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 25, y: 5.5}
-        - {x: 14, y: 34.5}
-        - {x: -25, y: 34.5}
-        - {x: -25, y: -6.5}
-        - {x: -10, y: -34.5}
-        - {x: 7, y: -34.5}
-        - {x: 6, y: -31.5}
-        - {x: 12, y: -34.5}
-        - {x: 25, y: -34.5}
+      - - {x: 25, y: 40}
+        - {x: 14, y: 69}
+        - {x: -25, y: 69}
+        - {x: -25, y: 28}
+        - {x: -10, y: 0}
+        - {x: 7, y: 0}
+        - {x: 6, y: 3}
+        - {x: 12, y: 0}
+        - {x: 25, y: 0}
     outline: []
   spritePackingTag: 
   userData: 
