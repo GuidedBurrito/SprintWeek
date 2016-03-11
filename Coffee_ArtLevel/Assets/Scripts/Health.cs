@@ -76,7 +76,7 @@ public class Health : MonoBehaviour {
             //retry same level
             health = 4;
             lifeDisplay.text = lives.ToString();
-            scoreTracker.SendMessage("LoadLevel");
+            //scoreTracker.SendMessage("LoadLevel");
         }
         else
         {

@@ -38,14 +38,14 @@ public class AtuoMove : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.UpArrow) && laneNo > 1 && !lockControls)
         {
             //Move player up a lane, unless they're in the top lane or inside a store
-            player.transform.position += Vector3.forward * laneWidth;
+            player.transform.position += Vector3.up * laneWidth;
             laneNo -= 1;
         }
 
         if (Input.GetKeyDown(KeyCode.DownArrow) && laneNo < 5 && !lockControls)
         {
             //Move player down a lane, unless they're in the bottom lane or inside a store
-            player.transform.position -= Vector3.forward * laneWidth;
+            player.transform.position -= Vector3.up * laneWidth;
             laneNo += 1;
         }
 

@@ -46,6 +46,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AnimationStuff\ChangeEmUp.cs" />
+     <Compile Include="Assets\LevelGenerate\Scripts\LevelGenerator.cs" />
+     <Compile Include="Assets\LevelGenerate\Scripts\Obstacle Controllers\ObstacleBaseScript.cs" />
+     <Compile Include="Assets\LevelGenerate\Scripts\ObstacleManager.cs" />
      <Compile Include="Assets\Scripts\AtuoMove.cs" />
      <Compile Include="Assets\Scripts\CoffeeThrow.cs" />
      <Compile Include="Assets\Scripts\CoinStart.cs" />
