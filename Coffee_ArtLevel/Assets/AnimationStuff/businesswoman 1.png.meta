@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 5a86435e3284660448638dda0fbbfe4b
+timeCreated: 1457657149
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: businesswoman 1_0
+    21300002: businesswoman 1_1
+    21300004: businesswoman 1_2
+    21300006: businesswoman 1_3
+    21300008: businesswoman 1_4
+    21300010: businesswoman 1_5
+    21300012: businesswoman 1_6
+    21300014: businesswoman 1_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: businesswoman 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 120
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 100}
+        - {x: 49, y: 102}
+        - {x: -32, y: 102}
+        - {x: -54, y: 12}
+        - {x: -54, y: -92}
+        - {x: -46, y: -104}
+        - {x: -16, y: -104}
+        - {x: -10, y: -84}
+        - {x: 12, y: -104}
+        - {x: 50, y: -104}
+    - name: businesswoman 1_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 208
+        width: 120
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 104}
+        - {x: -34, y: 101}
+        - {x: -34, y: -104}
+        - {x: 42, y: -104}
+        - {x: 42, y: 104}
+    - name: businesswoman 1_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 120
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 102}
+        - {x: -60, y: 45}
+        - {x: -60, y: -101}
+        - {x: -58, y: -104}
+        - {x: 60, y: -104}
+        - {x: 60, y: 32}
+        - {x: 54, y: 102}
+    - name: businesswoman 1_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 208
+        width: 120
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 104}
+        - {x: -34, y: 101}
+        - {x: -34, y: -104}
+        - {x: 42, y: -104}
+        - {x: 42, y: 104}
+    - name: businesswoman 1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 100}
+        - {x: 49, y: 102}
+        - {x: -32, y: 102}
+        - {x: -54, y: 12}
+        - {x: -54, y: -92}
+        - {x: -46, y: -104}
+        - {x: -16, y: -104}
+        - {x: -10, y: -84}
+        - {x: 12, y: -104}
+        - {x: 50, y: -104}
+    - name: businesswoman 1_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 104}
+        - {x: -34, y: 101}
+        - {x: -34, y: -104}
+        - {x: 42, y: -104}
+        - {x: 42, y: 104}
+    - name: businesswoman 1_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 102}
+        - {x: -60, y: 45}
+        - {x: -60, y: -101}
+        - {x: -58, y: -104}
+        - {x: 60, y: -104}
+        - {x: 60, y: 32}
+        - {x: 54, y: 102}
+    - name: businesswoman 1_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 120
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 104}
+        - {x: -34, y: 101}
+        - {x: -34, y: -104}
+        - {x: 42, y: -104}
+        - {x: 42, y: 104}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

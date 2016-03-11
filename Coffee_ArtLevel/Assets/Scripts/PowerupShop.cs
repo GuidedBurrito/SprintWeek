@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class PowerupShop : MonoBehaviour {
 
@@ -8,7 +9,11 @@ public class PowerupShop : MonoBehaviour {
     bool choosing;
 
     public Sprite doneSprite;
-    public SpriteRenderer shopSprite;
+    SpriteRenderer shopSprite;
+
+    int beans;
+    public Text beanDisplay;
+    public int shopCost;
 
 	// Use this for initialization
 	void Start () {
@@ -30,29 +35,41 @@ public class PowerupShop : MonoBehaviour {
         {
             Time.timeScale = 0.5f;
             storeUI.SetActive(true);
-            if (Input.GetKey(KeyCode.LeftControl))
+            if (Input.GetKey(KeyCode.LeftControl) && beans >= shopCost)
             {
                 //choose upgrade 1
                 //Say, refill health
                 gameObject.SendMessage("FullHealth");
+                beans -= shopCost;
+                beanDisplay.text = beans.ToString();
                 shopSprite = other.gameObject.GetComponentInChildren<SpriteRenderer>();
                 Chosen();
             }
-            else if (Input.GetKey(KeyCode.LeftAlt))
+            else if (Input.GetKey(KeyCode.LeftAlt) && beans >= shopCost)
             {
                 //choose upgrade 2
                 //Say, refill ammo
                 gameObject.SendMessage("FullAmmo");
+                beans -= shopCost;
+                beanDisplay.text = beans.ToString();
                 shopSprite = other.gameObject.GetComponentInChildren<SpriteRenderer>();
                 Chosen();
             }
-            else if (Input.GetKey(KeyCode.Space))
+            else if (Input.GetKey(KeyCode.Space) && beans >= shopCost)
             {
                 //choose upgrade 3
                 //Speedup or something
+                beans -= shopCost;
+                beanDisplay.text = beans.ToString();
                 shopSprite = other.gameObject.GetComponentInChildren<SpriteRenderer>();
                 Chosen();
             }
+        }
+        else if (other.gameObject.tag == "Bean")
+        {
+            beans++;
+            Destroy(other.gameObject);
+            beanDisplay.text = beans.ToString();
         }
     }
 

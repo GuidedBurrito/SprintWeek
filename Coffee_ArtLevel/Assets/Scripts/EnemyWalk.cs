@@ -41,6 +41,7 @@ public class EnemyWalk : MonoBehaviour {
             {
                 enemyWalkSpeed *= 2;
                 //some animation
+                GetComponentInChildren<Animator>().SetTrigger("Anger");
             }
         }        
     }
