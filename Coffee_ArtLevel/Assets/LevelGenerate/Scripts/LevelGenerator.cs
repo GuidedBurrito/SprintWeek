@@ -11,6 +11,9 @@ public class LevelGenerator : MonoBehaviour
     GameObject newTile;
 
     float nextXValue;
+    public int tilesInLevel; //Total tiles until level end
+    int tilesSoFar; //Tiles that have spawned
+    public GameObject end;
 
     void Start()
     {
@@ -20,7 +23,16 @@ public class LevelGenerator : MonoBehaviour
 
     void Update()
     {
-        if (this.transform.position.x > nextXValue)
+        if (tilesSoFar > tilesInLevel)
+        {
+            //end sequence
+            if (end) // it only needs to be done on one tile
+            {
+                Instantiate(end, new Vector3(nextXValue, transform.position.y, 0), Quaternion.identity);
+
+            }
+        }
+        else if (this.transform.position.x > nextXValue)
         {
             SpawnNewFloorTile();
         }
@@ -34,6 +46,7 @@ public class LevelGenerator : MonoBehaviour
         newTile = (GameObject)Instantiate(tileSet[tileToSpawn], new Vector3(nextXValue, this.transform.position.y, 0), Quaternion.identity);
         float tileStartX = newTile.transform.position.x;
         nextXValue = tileStartX + tileWidth;
+        tilesSoFar++;
     }
 
 

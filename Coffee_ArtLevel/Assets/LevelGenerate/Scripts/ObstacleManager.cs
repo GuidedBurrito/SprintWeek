@@ -21,23 +21,51 @@ public class ObstacleManager : MonoBehaviour
     {
         int pickedLane = Random.Range(0, 4);
 
-        int obstacleRandomizer = Random.Range(0, 100);
+        int obstacleRandomizer = Random.Range(0, 1000);
 
         GameObject obstacleToUse = obstacleTypes[0];
-        if (obstacleRandomizer > 0 && obstacleRandomizer < 50)
+        if (obstacleRandomizer > 0 && obstacleRandomizer < 100)
         {
             obstacleToUse = obstacleTypes[0];
         }
-        else if (obstacleRandomizer > 49 && obstacleRandomizer < 86)
+        else if (obstacleRandomizer > 99 && obstacleRandomizer < 200)
         {
             obstacleToUse = obstacleTypes[1];
         }
-        else if (obstacleRandomizer > 85 && obstacleRandomizer < 101)
+        else if (obstacleRandomizer > 199 && obstacleRandomizer < 300)
         {
             obstacleToUse = obstacleTypes[2];
-            pickedLane = 4;
-
         }
+        else if (obstacleRandomizer > 299 && obstacleRandomizer < 400)
+        {
+            obstacleToUse = obstacleTypes[3];
+        }
+        else if (obstacleRandomizer > 399 && obstacleRandomizer < 500)
+        {
+            obstacleToUse = obstacleTypes[4];
+        }
+        else if (obstacleRandomizer > 499 && obstacleRandomizer < 600)
+        {
+            obstacleToUse = obstacleTypes[5];
+        }
+        else if (obstacleRandomizer > 599 && obstacleRandomizer < 700)
+        {
+            obstacleToUse = obstacleTypes[6];
+        }
+        else if (obstacleRandomizer > 699 && obstacleRandomizer < 800)
+        {
+            obstacleToUse = obstacleTypes[7];
+            pickedLane = 4; //7 will be for the car
+        }
+        else if (obstacleRandomizer > 799 && obstacleRandomizer < 900)
+        {
+            obstacleToUse = obstacleTypes[8];
+        }
+        else if (obstacleRandomizer > 899 && obstacleRandomizer < 1000)
+        {
+            obstacleToUse = obstacleTypes[9];
+        }
+
         Transform spawnInLane = spawnPoints[0];
 
         switch (pickedLane)

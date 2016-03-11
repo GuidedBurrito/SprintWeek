@@ -16,9 +16,9 @@ public class EnemyWalk : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (movingUp && transform.position.z < 5)
+        if (movingUp && transform.position.z < 3)
         {
-            transform.position += Vector3.forward * Time.deltaTime * 4; //if proper enemy was hit, move until out of the way
+            transform.position += Vector3.up * Time.deltaTime * 4; //if proper enemy was hit, move until out of the way
         }
         else if (!movingUp)
         {
